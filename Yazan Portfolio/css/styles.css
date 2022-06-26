@@ -1,0 +1,362 @@
+body{
+    background-color: rgba(255, 255, 255, 0.4);
+    background: #222;
+    font-size: 29px;
+    color: rgb(19, 13, 13);
+    font-family: 'Lora', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+/*Header*/
+#header-nav{
+    background: url(/output-onlinepngtools\ \(3\).png);
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+    border: 0;
+    height: 800px;
+    margin-bottom: 200px;
+}
+
+.container1{
+    height: 400px;
+    position: relative;
+}
+
+.container1 button{
+    background: #222;
+    border: none;
+}
+
+.introduction{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 100;
+}
+
+.introduction h1{
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.introduction h1:nth-child(3){
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.block{
+    display: block;
+    font-size: 3em;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-weight: 400;
+}
+/*End header*/
+
+/*Home page*/
+#nav-list a:hover{
+    text-shadow: 1px 1px rgb(187, 181, 181);
+}
+
+#white{
+    color: #fff;
+    margin-bottom: 100px;
+    font-weight: 100;
+}
+
+.content{
+    color: #fff;
+    font-size: 20px;
+}
+
+.row{
+    margin-bottom: 200px;
+}
+
+.weight{
+    font-weight: 100;
+}
+
+#education , #experience{
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.resume{
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.resume .material-symbols-outlined{
+    font-size: small;
+}
+
+.education-title{
+    color: #bac964;
+    font-size: 25px;
+}
+
+.education-date{
+    font-size: 14px;
+}
+
+.education-brief{
+    font-size: 16px;
+    color: #ffffff66;
+    margin-bottom: 20px;
+}
+
+.university{
+    font-size: 16px;
+    color: #ffffff4d;
+}
+
+.education-brief > li{
+    margin-bottom: 7px;
+}
+
+#my-photo{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.about-me{
+    padding: 15px 50px;
+}
+
+.about-me h2{
+    margin-bottom: 35px;
+}
+
+.about-me p{
+    color: #ffffff66;
+    font-size: 24px;
+}
+
+.btn{
+    margin-top: 100px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #c0ca88;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.btn:hover{
+    color: #333;
+    text-shadow: none;
+}
+
+/*to remove the border when clicking on button*/
+.btn:focus{
+    border: none;
+    outline: none !important; 
+}
+
+h1.weight{
+    margin-bottom: 100px;
+}
+
+.services{
+    background-color: #333;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.icon{
+    background-color: #bac964;
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto 30px auto;
+    border-radius: 50%;
+}
+
+.services .material-symbols-outlined{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 100;
+    color: #333;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.service-name{
+    margin-bottom: 60px;
+}
+
+.service-explain{
+    color: #ffffff66;
+    font-size: 20px;
+}
+/*End home page*/
+
+/*Footer*/
+.panel-footer{
+    border: none;
+    color: #fff;
+    background-color: #333;
+}
+
+#contacts a:hover{
+    text-decoration: none;
+}
+
+#decrease-margin{
+    margin-bottom: 100px;
+}
+
+#contacts #copyright{
+    font-size: 20px;
+    color: #ffffff66;
+    margin-bottom: 50px;
+}
+
+#contacts .material-symbols-outlined{
+    color: rgb(218, 47, 47);
+}
+
+.fa {
+    background-color: #222;
+    width: 60px;  
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px 20px 50px;
+    position: relative;
+}
+
+.fa-facebook {
+    color: #bac964;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-linkedin {  
+    color: #bac964;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-instagram {  
+    color: #bac964;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.fa-youtube {  
+    color: #bac964;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa:hover {  
+      opacity: 0.9;
+      color: #bac964;
+}
+/*End footer*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #bac964;
+  color: white;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: #c0ca88;
+}
+
+/*Large devices*/
+@media (min-width: 1200px){
+    
+}
+/*End Large devices*/
+
+/*Medium devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .about-me p{
+        font-size: 18px;
+    }
+
+    .btn{
+        margin-top: 80px;
+    }
+}
+/*End Medium devices*/
+
+/*Small devices*/
+@media (min-width: 768px) and (max-width: 991px){
+    #header-nav{
+        height: auto;
+    }
+}
+/*End Small devices*/
+
+/*Extra small devices*/
+@media (max-width: 767px){
+    .introduction{
+        font-size: 4vw;
+    }
+
+    #header-nav{
+        width: 100%;
+        height: auto;
+    }
+
+    .about-me p{
+        font-size: 19px;
+    }
+
+    .about-me{
+        padding: 15px 25px;
+    }
+}
+/*End Extra small devices*/
+
+
+/**************** Super extra small devices Only :-) ***/
+@media(max-width:479px){
+    #header-nav{
+        width: 100%;
+        background-position: left;
+        height: auto;
+    }
+}
